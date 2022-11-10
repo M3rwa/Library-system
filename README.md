@@ -13,7 +13,7 @@ In this project we used C++ programming language, OOP for C++, data structure an
 
 ● books has stock of 9
 
-● magazines and short storys hase no stock
+● magazines and short storys has no stock
 ### System has actions [sell/borrow]
 
 ● fixed employee can sell and borrow
@@ -21,7 +21,7 @@ In this project we used C++ programming language, OOP for C++, data structure an
 ● dynamic employee can borrow only
 
 ### The Team:
-Marwa Elsayed Khalil
+Marwa Elsayed Khalil Elsayed
 
 Ashraf Abdulkhaliq Bassuoni
 
