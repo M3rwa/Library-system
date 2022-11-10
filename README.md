@@ -4,25 +4,36 @@ Our Project is a graduation project from Instant Software Solution diploma for S
 # Project Decsripton
 In this project we used C++ programming language, OOP for C++, data structure and SOLID principles to make cashier library system.
 
-### System has employees [fixed/dynamic]
+Our client wants to make a system for his library that sell and lend books to people. 
 
-● fixed employee has monthly salary and insurance
+#### There are three categories:
+1.	Books (Engineering Books, Medical Books, Religious Books)
 
-● dynamic employee has only daily salary
-### System has books [Engineering/Medical/Religious], magazines and short storys
+2.  Magazines
 
-● books has stock of 9
+3.	Short Stories
 
-● magazines and short storys has no stock
-### System has actions [sell/borrow]
+We have 9 books for each type of book but we should keep 3 in stock for our books and an unlimited number for Magazines and Short Stories.
 
-● fixed employee can sell and borrow
+We have two types of employees:
+1.	A fixed worker (Lifelong contract) (Ten workers).
+    (They have privileges to sell or lend any category)
+    
+2.	A six daily reward worker (Daily payment) (Six workers). 
+    (They have privileges to lend only any category)
+    
+Our books are stored lengthwise and when we lend any book I should make sure that the stock isn’t equal to zero.
 
-● dynamic employee can borrow only
+Our system should ask the employee if he/she fixed or daily
+
+If fixed let him/her enter a name and check if this employee is allowed or not. This Employee is allowed to sell or lend any book.
+
+For the Daily employee, we should also check the name and the privilege for this employee is to lend only books.
+
 
 ### The Team:
-Marwa Elsayed Khalil Elsayed
+● Marwa Elsayed Khalil Elsayed
 
-Ashraf Abdulkhaliq Bassuoni
+● Ashraf Abdulkhaliq Bassuoni
 
-Hossam Kamal Elnemr
+● Hossam Kamal Elnemr
