@@ -1,40 +1,56 @@
-# Library-system
-Our Project is a graduation project from Instant Software Solution diploma for Software Engineering Track. 
+# Library System
 
-# Project Description
+This repository contains the code for a library system developed as a graduation project for the Instant Software Solution diploma in Software Engineering Track.
 
-In this project we used C++ programming language, OOP for C++, data structure and SOLID principles to make cashier library system.
+## Project Description
 
-Our client wants to make a system for his library that sell and lend books to people. 
+The library system is implemented using the C++ programming language, following Object-Oriented Programming (OOP) principles, utilizing data structures, and adhering to SOLID principles. The system serves as a cashier library system for a client who wants to sell and lend books to people.
 
-#### There are three categories:
-1.	Books (Engineering Books, Medical Books, Religious Books)
+### Categories
 
-2.  Magazines
+The library system includes three categories of items:
 
-3.	Short Stories
+1. Books: Engineering Books, Medical Books, Religious Books
+2. Magazines
+3. Short Stories
 
-We have 9 books for each type of book but we should keep 3 in stock for our books and an unlimited number for Magazines and Short Stories.
+There are 9 books available for each type of book, but a minimum stock of 3 is maintained for books. Magazines and Short Stories can have an unlimited stock.
 
-We have two types of employees:
-1.	A fixed worker (Lifelong contract) (Ten workers).
-    (They have privileges to sell or lend any category)
-    
-2.	A six daily reward worker (Daily payment) (Six workers). 
-    (They have privileges to lend only any category)
-    
-Our books are stored lengthwise and when we lend any book I should make sure that the stock isn’t equal to zero.
+### Employees
 
-Our system should ask the employee if he/she fixed or daily
+There are two types of employees in the library system:
 
-If fixed let him/her enter a name and check if this employee is allowed or not. This Employee is allowed to sell or lend any book.
+1. Fixed workers (Lifelong contract): There are ten fixed workers who have the privileges to sell or lend any category of items.
+2. Daily reward workers (Daily payment): There are six daily reward workers who can only lend items and are not allowed to sell. 
 
-For the Daily employee, we should also check the name and the privilege for this employee is to lend only books.
+### System Functionality
 
+The library system provides the following functionality:
 
-### The Team:
-● Marwa Elsayed Khalil Elsayed
+- Upon system startup, the employee is asked to select their employment type: fixed or daily.
+- If the employee is fixed, they are prompted to enter their name, and the system checks if the employee is allowed to sell or lend any book.
+- If the employee is a daily worker, their name is checked, and their privilege is limited to lending books only.
+- The books are stored lengthwise, and the system ensures that the stock for a book is not equal to zero before lending.
+- The system maintains a record of items sold or lent, along with employee details.
 
-● Ashraf Abdulkhaliq Bassuoni
+## The Team
 
-● Hossam Kamal Elnemr
+The library system project was developed by the following team members:
+
+- Marwa Elsayed Khalil Elsayed
+- Ashraf Abdulkhaliq Bassuoni
+- Hossam Kamal Elnemr
+
+## Usage
+
+To use the library system, follow these steps:
+
+1. Clone the repository to your local machine or download the `Final_Project_ODC_Instant.cpp` file directly.
+2. Compile the C++ code using a C++ compiler of your choice.
+3. Run the compiled executable to start the library system.
+4. Follow the prompts to select the employee type (fixed or daily) and enter the employee's name.
+5. Use the system to sell or lend books based on the employee's privileges and the available stock.
+
+## Conclusion
+
+The library system developed for this graduation project provides a cashier system for a library, allowing employees to sell and lend books to customers. By utilizing C++ programming, OOP principles, data structures, and SOLID principles, the system offers efficient management of book categories, employee privileges, and stock control. The collaboration of the development team ensured the successful implementation of the project, meeting the requirements of the graduation project for the Instant Software Solution diploma in Software Engineering Track.
